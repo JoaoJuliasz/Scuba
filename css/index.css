@@ -76,12 +76,8 @@
         padding-top: 15px;
         height: 135px;
         width: 500px;
-        /* z-index: 99; */
         margin: 0 auto;
-        /* text-align: center; */
-        /* border-radius: 15px; */
         color: #ffffff;
-        /* padding-bottom: 15px; */
     }
     .text p{
         margin-left: 15px;
@@ -328,6 +324,7 @@
     .shop img{
         width: 281px;
         height: 182px;
+        border-radius: 5px;
     }
     .computer{
         display: flex;
