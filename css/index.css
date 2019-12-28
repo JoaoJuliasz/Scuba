@@ -447,7 +447,13 @@
         .footer{
             
         padding-left: 35px;
+        display: flex;
+        flex-direction: column;
         
+        }
+        .footer img{
+            display: flex;
+            flex-direction: row;
         }
     
         .text{
