@@ -451,10 +451,6 @@
         flex-direction: column;
         
         }
-        .footer img{
-            display: flex;
-            flex-direction: row;
-        }
     
         .text{
             bottom: 30px;
