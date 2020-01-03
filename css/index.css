@@ -266,7 +266,7 @@
         border-radius: 15px;
     }
     
-    .inside .warning{
+    .warning{
     
         font-size: 12px;
         padding-bottom: 10px;
@@ -326,6 +326,11 @@
         height: 182px;
         border-radius: 5px;
     }
+    
+    .places .only{
+        padding-bottom: 15px;
+    }
+
     .computer{
         display: flex;
         flex-direction: row;
@@ -371,7 +376,6 @@
         .logo{
             padding-left: 25px;
         }
-    
         .center img{
             width: 305px;
             height: 218px;
@@ -451,7 +455,7 @@
         flex-direction: column;
         
         }
-    
+        
         .text{
             bottom: 30px;
         }
