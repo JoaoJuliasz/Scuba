@@ -8,7 +8,7 @@ class Page
 {
     private $tpl;
     private $options = [];
-    
+
 
     public function __construct($tpl_dir = "/views/")
     {
@@ -21,19 +21,11 @@ class Page
 
         Tpl::configure($config);
         $this->tpl = new Tpl;
-
-
-    //   $this->tpl->draw("header");
     }
 
     public function setTpl($name, $returnHtml = false)
     {
-        
-       return $this->tpl->draw($name, $returnHtml);
-    }
 
-    // public function __destruct()
-    // {
-    //     $this->tpl->draw("footer");
-    // }
+        return $this->tpl->draw($name, $returnHtml);
+    }
 }

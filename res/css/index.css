@@ -331,7 +331,7 @@
         padding-bottom: 15px;
     }
 
-    .computer{
+    /* .computer{
         display: flex;
         flex-direction: row;
         padding-top: 40px;
@@ -345,7 +345,7 @@
     }
     .computer .text{
         padding-left: 40px;
-    }
+    } */
     .contact{
         display: none;
     }
@@ -440,7 +440,7 @@
         height: 200px;
         }
     
-        .contact{
+        .contact, .face{
             color: #FFF;
             width: 250px;
             margin: 0 auto;
