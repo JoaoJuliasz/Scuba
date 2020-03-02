@@ -12,7 +12,7 @@
     <p class="only">* Somente para credenciados</p>
     <p class="warning">* Clique no título do curso para abrir a descrição</p>
 
-    <p class="subtitle" onclick="hide1()"><u>1. Cedro e Ponta Grossa</u></p> <br>
+    <p class="subtitle" onclick="hide('hide1')"><u>1. Cedro e Ponta Grossa</u></p> <br>
 
     <div id="hide1" style="display: none;">
         <p> Tempo de navegação: 15 minutos<br>
@@ -24,7 +24,7 @@
     </div>
     ​
 
-    <p class="subtitle" onclick="hide2()"><u> 2. Ilha Anchieta</u></p><br>
+    <p class="subtitle" onclick="hide('hide2')"><u> 2. Ilha Anchieta</u></p><br>
     <div id="hide2" style="display: none;">
         <p> Tempo de navegação: 30 minutos<br>
 
@@ -35,7 +35,7 @@
     </div>
     ​
 
-    <p class="subtitle" onclick="hide3()"><u>3. Ilha das Couves e Rapada</u></p> <br>
+    <p class="subtitle" onclick="hide('hide3')"><u>3. Ilha das Couves e Rapada</u></p> <br>
     <div id="hide3" style="display: none;">
         <p>Tempo de navegação: 40 minutos <br>
 
@@ -47,7 +47,7 @@
 
     ​
 
-    <p class="subtitle" onclick="hide4()"><u> 4. Ilha Vitória</u></p> <br>
+    <p class="subtitle" onclick="hide('hide4')"><u> 4. Ilha Vitória</u></p> <br>
 
     <div id="hide4" style="display: none;">
         <p> Tempo de navegação: 1H e 25 Min. <br>
@@ -58,14 +58,14 @@
         </p><br>
     </div>
     <br>
-    <p class="subtitle" onclick="hide5()"><u>Cancelamentos</u></p><br>
+    <p class="subtitle" onclick="hide('hide5')"><u>Cancelamentos</u></p><br>
     <br>
     <div id="hide5" style="display: none;">
         Perda de 50% do valor total para cancelamentos 5 dias antes da saída.<br>
         <br>
         Perda de 100% do valor total para o cancelamento 24 hs antes da saída ou o não comparecimento.
     </div>
-    <p class="subtitle" onclick="hide6()"><u> Reembolsos</u></p><br>
+    <p class="subtitle" onclick="hide('hide6')"><u> Reembolsos</u></p><br>
     <br>
     <div id="hide6" style="display: none;">
         Ocorre quando a saída for cancelada por motivos alheios a nossa vontade, como problemas mecânicos ou<br>
@@ -75,7 +75,7 @@
         </p><br>
     </div>
 
-    <p> * inclui: 2 cilindros, lastro e lanche a bordo <br>
+    <p style="padding-top: 15px;"> * inclui: 2 cilindros, lastro e lanche a bordo <br>
         <br>
         * cada equipamento (colete, roupa, regulador) = R$45<br>
         <br>

@@ -8,7 +8,7 @@
 
     <p class="warning">* Clique no título do curso para abrir a descrição</p>
 
-    <p onclick="hide1()" class="subtitle"><u> Curso Básico Open Water</u></p> <br>
+    <p onclick="hide('hide1')" class="subtitle"><u> Curso Básico Open Water</u></p> <br>
     <div id="hide1" class="hide" style="display: none;">
         <p>Duração: 4 dias seguidos ou não. <br>
 
@@ -31,7 +31,7 @@
             Diver. Boa saúde, condições físicas razoáveis e sentir-se à vontade na água. <br>
         </p><br>
     </div>
-    <p class="subtitle" onclick="hide2()"><u>Scuba Review</u></p> <br>
+    <p class="subtitle" onclick="hide('hide2')"><u>Scuba Review</u></p> <br>
     <div id="hide2" style="display: none;">
         <p> Duração: 2 horas. <br>
             <br>
@@ -42,7 +42,7 @@
             Inclui: aluguel de todo equipamento e instrutor.</p><br>
     </div>
 
-    <p class="subtitle" onclick="hide3()"><u> Curso Avançado Advanced Open Water</u></p> <br>
+    <p class="subtitle" onclick="hide('hide3')"><u> Curso Avançado Advanced Open Water</u></p> <br>
     <div id="hide3" style="display: none;">
         <p> Duração: 2 dias e meio.<br>
             <br>
@@ -63,7 +63,7 @@
             * Geralmente o mergulho noturno é feito no píer.</p><br>
     </div>
 
-    <p class="subtitle" onclick="hide4()"><u>Curso de Primeiros - Socorros Emergency First Response</u></p> <br>
+    <p class="subtitle" onclick="hide('hide4')"><u>Curso de Primeiros - Socorros Emergency First Response</u></p> <br>
     <div id="hide4" style="display: none;">
         <p> Duração: 1 dia. <br>
             <br>
@@ -90,7 +90,7 @@
             Não há limite de idade mínima.</p> <br>
     </div>
 
-    <p class="subtitle" onclick="hide5()"><u>Curso de Resgate Rescue Diver</u></p> <br>
+    <p class="subtitle" onclick="hide('hide5')"><u>Curso de Resgate Rescue Diver</u></p> <br>
     <div id="hide5" style="display: none;">
         <p> Duração: 3 dias seguidos ou não.<br>
             <br>
@@ -135,7 +135,7 @@
     </div><br>
 
 
-    <p class="subtitle" onclick="hide6()"><u>Curso Dive Master</u></p> <br>
+    <p class="subtitle" onclick="hide('hide6')"><u>Curso Dive Master</u></p> <br>
     <div id="hide6" style="display: none;">
         <p> Duração: 6 dias, seguidos ou não + estágio com acompanhamento de cursos e saídas.<br>
             <br>
@@ -172,13 +172,13 @@
             dólar)<br></p>
     </div>
     <br>
-    <p class="subtitle" onclick="hide7()"><u> Cancelamentos</u></p> <br>
+    <p class="subtitle" onclick="hide('hide7')"><u> Cancelamentos</u></p> <br>
 
     <p id="hide7" style="display: none;"> Perda de 50% do valor total para cancelamentos 5 dias antes da saída.<br>
         <br>
         Perda de 100% do valor total para o não comparecimento.</p><br>
 
-    <p class="subtitle" onclick="hide8()"><u>Reembolsos</u></p> <br>
+    <p class="subtitle" onclick="hide('hide8')"><u>Reembolsos</u></p> <br>
 
     <p id="hide8" style="display: none;"> Ocorre quando a saída for cancelada por motivos alheios a nossa vontade, como problemas mecânicos
         ou<br>
