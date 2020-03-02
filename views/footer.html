@@ -5,6 +5,3 @@
         <img src="./res/assets/sdi.jpg" class="sdi" alt="">
     </div>
 </div>
-
-<script src="./res/js/func.js"></script>
-</body>

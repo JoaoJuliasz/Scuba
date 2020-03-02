@@ -33,3 +33,4 @@
         * Não haverá reembolso pelo não uso de equipamentos disponibilizados durante a saída.</p>
 </div>
 <?php require $this->checkTemplate("footer");?>
+<?php require $this->checkTemplate("foot");?>

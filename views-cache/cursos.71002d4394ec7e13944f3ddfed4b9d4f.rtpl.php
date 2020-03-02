@@ -187,3 +187,5 @@
         * Não haverá reembolso pelo não uso de equipamentos disponibilizados durante a saída.</p><br>
 </div>
 <?php require $this->checkTemplate("footer");?>
+<script src="../res/js/func.js"></script>
+<?php require $this->checkTemplate("foot");?>
