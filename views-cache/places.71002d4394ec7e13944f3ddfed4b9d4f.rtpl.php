@@ -14,7 +14,7 @@
 
     <p class="subtitle" onclick="hide1()"><u>1. Cedro e Ponta Grossa</u></p> <br>
 
-    <div id="hide1">
+    <div id="hide1" style="display: none;">
         <p> Tempo de navegação: 15 minutos<br>
 
             Profundidade: de 4 a 12 metros</p><br>
@@ -25,7 +25,7 @@
     ​
 
     <p class="subtitle" onclick="hide2()"><u> 2. Ilha Anchieta</u></p><br>
-    <div id="hide2">
+    <div id="hide2" style="display: none;">
         <p> Tempo de navegação: 30 minutos<br>
 
             Profundidade: de 2 a 18 </p><br>
@@ -36,7 +36,7 @@
     ​
 
     <p class="subtitle" onclick="hide3()"><u>3. Ilha das Couves e Rapada</u></p> <br>
-    <div id="hide3">
+    <div id="hide3" style="display: none;">
         <p>Tempo de navegação: 40 minutos <br>
 
             Profundidade: de 3 a 23 metros</p><br>
@@ -49,7 +49,7 @@
 
     <p class="subtitle" onclick="hide4()"><u> 4. Ilha Vitória</u></p> <br>
 
-    <div id="hide4">
+    <div id="hide4" style="display: none;">
         <p> Tempo de navegação: 1H e 25 Min. <br>
 
             Profundidade: de 5 a 40 metros</p> <br>
@@ -60,14 +60,14 @@
     <br>
     <p class="subtitle" onclick="hide5()"><u>Cancelamentos</u></p><br>
     <br>
-    <div id="hide5">
+    <div id="hide5" style="display: none;">
         Perda de 50% do valor total para cancelamentos 5 dias antes da saída.<br>
         <br>
         Perda de 100% do valor total para o cancelamento 24 hs antes da saída ou o não comparecimento.
     </div>
     <p class="subtitle" onclick="hide6()"><u> Reembolsos</u></p><br>
     <br>
-    <div id="hide6">
+    <div id="hide6" style="display: none;">
         Ocorre quando a saída for cancelada por motivos alheios a nossa vontade, como problemas mecânicos ou<br>
         climáticos.<br>
         <br>

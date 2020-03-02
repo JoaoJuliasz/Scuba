@@ -31,11 +31,4 @@ $app->get('/pontos', function () {
 
   $page->setTpl("places");
 });
-$app->get('/venda-equipamentos', function () {
-
-  $page = new Page();
-
-  $page->setTpl("sell");
-});
-
 $app->run();

@@ -330,28 +330,13 @@
     .places .only{
         padding-bottom: 15px;
     }
-
-    /* .computer{
-        display: flex;
-        flex-direction: row;
-        padding-top: 40px;
-        width: 600px;
-        margin: 0 auto;
-        padding-left: 40px;
-
-    }
-    .computer strong{
-        font-size: 30px;
-    }
-    .computer .text{
-        padding-left: 40px;
-    } */
     .contact{
         display: none;
     }
     @media(max-width:640px){
-       
-        
+       .html{
+        overflow-x: hidden;
+       }
         .tel{
             display: none;
         }
@@ -367,10 +352,9 @@
         }
     
         body{
-            overflow-x: hidden;
             background-image: url(../assets/background.jpg);
             background-attachment: fixed;
-            background-size: auto;
+            background-size: 100%;
             background-repeat: no-repeat;
         }
         .logo{
@@ -452,6 +436,7 @@
         .footer{
             
         padding-left: 35px;
+        width: auto;
         display: flex;
         flex-direction: column;
         

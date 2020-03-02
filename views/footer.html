@@ -7,6 +7,4 @@
 </div>
 
 <script src="./res/js/func.js"></script>
-
-
 </body>
