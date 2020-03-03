@@ -46,7 +46,7 @@
         padding-top: 15px;
         color: #000;
     }
-    .fa-facebook-square{
+    .face{
         padding-left: 50px;
         padding-top: 15px;
         text-decoration: none;
@@ -365,7 +365,7 @@
             height: 218px;
             margin: 0 auto;
         }
-        .fa-facebook-square{
+        .face{
             display: none;
         }
     
@@ -455,7 +455,8 @@
             height: 205px;
         }
         .contact{
-            display: block;
+            display: flex;
+            flex-direction: column;
         }
     }
 
@@ -490,7 +491,7 @@
             height: 400px;
             margin: 0 auto;
         }
-        .fa-facebook-square{
+        .face{
             display: none;
         }
     

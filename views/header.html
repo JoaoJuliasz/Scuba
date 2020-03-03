@@ -28,7 +28,7 @@
                 </p>
 
                 <a href="https://www.facebook.com/ScubatubaMergulhoETurismo/" target="_blank"> <i
-                        class="fab fa-facebook-square"></i></a>
+                        class="fab fa-facebook-square face"></i></a>
             </div>
 
             
