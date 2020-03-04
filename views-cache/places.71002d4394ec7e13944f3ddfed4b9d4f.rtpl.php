@@ -5,7 +5,7 @@
 <body onload="slide1()">
 
     <div class="places" onload="slide1()">
-        <img src="./res/assets/tartaruga.jpg" alt="" id="banner">
+        <img src="./res/assets/anchieta 2.jpg" alt="" id="banner">
 
         <p class="title">PONTOS DE MERGULHO / VALORES
         </p><br>
