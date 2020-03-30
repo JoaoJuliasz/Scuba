@@ -1,10 +1,20 @@
 <?php if(!class_exists('Rain\Tpl')){exit;}?><?php require $this->checkTemplate("header");?>
 
-<body>
+<div class="lds-roller">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
 
+<div class="container">
     <div class="center">
 
-        <img src="./res/assets/slide1.jpg" alt="slider" id="banner">
+        <img src="./res/assets/corona2.jpeg" alt="slider" id="banner">
         <div class="text">
             <p>
                 Fundada em 2002, A Scubatuba Operadora de Mergulho é um centro de <br> treinamento 5 Star SDI/TDI
@@ -60,7 +70,7 @@
         <div class="divePlaces">
             <img src="./res/assets/anchieta 2.jpg" alt="">
             <div class="infos">
-                <p class="title">PONTOS DE MERGULHO/VALORES</p>
+                <p class="title">PONTOS DE MERGULHO/<br>VALORES</p>
                 <p>Ubatuba conta com excelentes pontos de mergulho.</p>
                 <a href="/pontos">Saiba Mais</a>
             </div>
@@ -76,40 +86,47 @@
         <a href="https://www.facebook.com/ScubatubaMergulhoETurismo/" target="_blank"> <i
                 class="fab fa-facebook-square "></i></a>
     </div>
-    </div>
     <div class="location">
         <p>Nosso Embarque</p>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.220842312391!2d-45.049125585024306!3d-23.452497184737002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cd5320cc8803cd%3A0x211958f1659e9456!2sPosto%20Mar%C3%ADtimo%20Rede%20Mar!5e0!3m2!1spt-BR!2sbr!4v1576964172530!5m2!1spt-BR!2sbr"
             width="800" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
-
     <?php require $this->checkTemplate("footer");?>
+</div>
 
-    <script>
+<script>
 
-        let intervalo = 2000;
+    // let intervalo = 2000;
 
-        function slide1() {
-            document.getElementById("banner").src = "./res/assets/slide1.jpg"
-            setTimeout("slide2()", intervalo)
-        }
-        function slide2() {
-            document.getElementById("banner").src = "./res/assets/slide2.jpg"
-            setTimeout("slide3()", intervalo)
-        }
-        function slide3() {
-            document.getElementById("banner").src = "./res/assets/slide3.jpg"
-            setTimeout("slide4()", intervalo)
-        }
-        function slide4() {
-            document.getElementById("banner").src = "./res/assets/slide4.jpg"
-            setTimeout("slide1()", intervalo)
-        }
+    let intervalo_corona = 2500
 
-        const body = document.querySelector('body')
-        body.onload = slide1
-    </script>
-</body>
+    function slide1() {
+        document.getElementById("banner").src = "./res/assets/corona2.jpeg"
+        setTimeout("slide2()", intervalo_corona)
+    }
+    function slide2() {
+        document.getElementById("banner").src = "./res/assets/corona1.jpeg"
+        setTimeout("slide1()", intervalo_corona)
+    }
+    // function slide1() {
+    //     document.getElementById("banner").src = "./res/assets/slide1.jpg"
+    //     setTimeout("slide2()", intervalo)
+    // }
+    // function slide2() {
+    //     document.getElementById("banner").src = "./res/assets/slide2.jpg"
+    //     setTimeout("slide3()", intervalo)
+    // }
+    // function slide3() {
+    //     document.getElementById("banner").src = "./res/assets/slide3.jpg"
+    //     setTimeout("slide4()", intervalo)
+    // }
+    // function slide4() {
+    //     document.getElementById("banner").src = "./res/assets/slide4.jpg"
+    //     setTimeout("slide1()", intervalo)
+    // }
 
-</html>
+    const body = document.querySelector('body')
+    body.onload = slide1
+</script>
+<?php require $this->checkTemplate("foot");?>

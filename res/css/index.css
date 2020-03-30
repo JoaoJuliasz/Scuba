@@ -13,7 +13,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 html {
-    background-image: url(../assets/background.jpg) ;
+    background-image: url(../assets/background.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,27 +120,27 @@ html {
     padding-top: 50px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     color: #fff;
     justify-content: space-around;
 }
 
 .info a {
     border: 1px solid #fff000;
-    border-radius: 20px;
+    border-radius: 3px;
     padding: 10px;
     text-decoration: none;
     color: #fff000;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    top: 10px;
+    align-items: center;
+    transition: 0.4s;
 }
 
 .info a:hover {
     border: 1px solid #fff000;
     text-decoration: none;
     color: #000;
-    transition-delay: 0.05s;
     background: #fff000;
+    opacity: 0.9;
 }
 
 .info .title {
@@ -218,10 +218,6 @@ html {
 
 .back .fas:hover {
     color: #ccc8c8;
-}
-
-#hide1, #hide2, #hide3, #hide4, #hide5, #hide6, #hide7, #hide8 {
-    display: none;
 }
 
 .subtitle {
@@ -358,6 +354,113 @@ html {
     display: none;
 }
 
+.lds-roller {
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    margin: -4px 0 0 -4px;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+}
+
+.lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+}
+
+.lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+}
+
+.lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 @media(max-width:640px) {
     .html {
         overflow-x: hidden;
@@ -370,7 +473,7 @@ html {
     }
     .center {
         overflow-x: hidden;
-        padding-top: 5px;
+        padding-top: 15px;
         height: 550px;
     }
     .logo {
@@ -415,6 +518,7 @@ html {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
     }
     .info img {
         margin-top: 10px;
@@ -426,13 +530,13 @@ html {
         height: 200px;
     }
     .location {
-        padding-top: 60px;
-        width: 250px;
+        padding-top: 40px;
+        width: 90%;
         margin: 0 auto;
     }
     .location iframe {
-        width: 250px;
-        height: 200px;
+        width: 100%;
+        height: 50vh;
     }
     .contact, .face {
         color: #FFF;
@@ -473,7 +577,7 @@ html {
     }
     .center {
         overflow-x: hidden;
-        padding-top: 5px;
+        padding-top: 15px;
         height: 550px;
     }
     .logo {
@@ -488,7 +592,6 @@ html {
         display: none;
     }
     .text {
-        /* width: 250px; */
         height: 161px;
     }
     .text p {
@@ -516,6 +619,7 @@ html {
         padding-top: 50px;
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: space-around;
     }
     .info img {
@@ -530,13 +634,13 @@ html {
         height: 200px;
     }
     .location {
-        padding-top: 60px;
-        width: 250px;
+        padding-top: 40px;
+        width: 90%;
         margin: 0 auto;
     }
     .location iframe {
-        width: 250px;
-        height: 200px;
+        width: 100%;
+        height: 25em;
     }
     .contact {
         color: #FFF;
@@ -553,11 +657,15 @@ html {
         bottom: 30px;
     }
     .content, .inside, .places {
-        width: 305px;
+        width: 100%;
+    }
+    .content p, .inside p, .places p {
+        width: 85%;
     }
     .content img, .inside img, .places img {
-        width: 305px;
-        height: 205px;
+        width: 90%;
+        height: 50%;
+        display: flex;
     }
     .contact {
         display: block;
